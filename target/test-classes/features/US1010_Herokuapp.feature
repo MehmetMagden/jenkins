@@ -3,6 +3,7 @@ Feature: US1010 herokuapp Delete testi
   @heroku @sirali @pr1
   Scenario: TC15 herokuapp'dan delete butonu calismali
     Given kullanici "herokuappUrl" anasayfasinda
+    And kullanici 2 sn bekler
     And add element butonuna basar
     And kullanici 3 sn bekler
     Then Delete butonu gorunur oluncaya kadar bekler
